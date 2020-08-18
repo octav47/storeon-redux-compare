@@ -1,0 +1,39 @@
+{
+  "name": "storeon-redux-compare",
+  "version": "1.0.0",
+  "description": "comparison of redux and storeon",
+  "main": "index.js",
+  "scripts": {
+    "dev:redux": "parcel redux/index.html",
+    "build:redux": "rm -rf dist/redux && parcel build redux/index.html -d dist/redux --no-source-maps",
+    "dev:storeon": "parcel storeon/index.html",
+    "build:storeon": "rm -rf dist/storeon && parcel build storeon/index.html -d dist/storeon --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octav47/storeon-redux-compare.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/octav47/storeon-redux-compare/issues"
+  },
+  "homepage": "https://github.com/octav47/storeon-redux-compare#readme",
+  "dependencies": {
+    "isomorphic-fetch": "2.2.1",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "7.2.1",
+    "redux": "4.0.5",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.3.0",
+    "storeon": "3.0.3"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "7.10.4",
+    "parcel-bundler": "1.12.4",
+    "parcel-plugin-bundle-visualiser": "1.2.0",
+    "prettier": "2.0.5"
+  }
+}
