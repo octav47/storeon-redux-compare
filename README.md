@@ -11,8 +11,10 @@ Size:         59.52 KB gzipped
 Loading time: 1.2 s    on slow 3G
 Running time: 578 ms   on Snapdragon 410
 Total time:   1.8 s
-
 ```
+
+report via [parcel-plugin-bundle-visualiser](http://npmjs.com/package/parcel-plugin-bundle-visualiser):
+`./dist/redux/report.html`
 
 ### [storeon](http://npmjs.com/package/storeon)
 
@@ -22,3 +24,6 @@ Loading time: 968 ms   on slow 3G
 Running time: 568 ms   on Snapdragon 410
 Total time:   1.6 s
 ```
+
+report via [parcel-plugin-bundle-visualiser](http://npmjs.com/package/parcel-plugin-bundle-visualiser):
+`./dist/storeon/report.html`
