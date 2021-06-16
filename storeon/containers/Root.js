@@ -1,13 +1,15 @@
 import React, { Suspense, lazy } from 'react'
-import { StoreContext } from 'storeon/react'
-import store from '../store'
+import { Provider } from 'react-redux'
+import configureStore from '../store'
+
+const store = configureStore()
 
 const LazyApp = lazy(() => import('./App'))
 
 export default () => (
-  <StoreContext.Provider value={store}>
-    <Suspense fallback="Loading...">
-      <LazyApp />
-    </Suspense>
-  </StoreContext.Provider>
+    <Provider store={store}>
+        <Suspense fallback="Loading...">
+            <LazyApp />
+        </Suspense>
+    </Provider>
 )
