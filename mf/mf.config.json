@@ -1,0 +1,16 @@
+{
+  "core": {
+    "host": "0.0.0.0",
+    "port": 9001,
+    "useAnalyzer": false,
+    "analyzerHost": "127.0.0.1",
+    "analyzerPort": 8889
+  },
+  "header": {
+    "host": "0.0.0.0",
+    "port": 9002,
+    "useAnalyzer": false,
+    "analyzerHost": "127.0.0.1",
+    "analyzerPort": 8890
+  }
+}

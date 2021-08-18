@@ -1,0 +1,17 @@
+{
+  "name": "mf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "setup": "npm i && npm run bootstrap && lerna link",
+    "bootstrap": "lerna bootstrap --hoist",
+    "dev": "lerna run dev --stream"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lerna": "4.0.0"
+  }
+}
