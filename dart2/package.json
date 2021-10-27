@@ -1,20 +1,19 @@
 {
-  "name": "core",
+  "name": "dart",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "author": "",
-  "license": "ISC",
   "scripts": {
     "clean": "rm -rf dist",
-    "install": "npm i",
     "dev": "npm run clean && webpack serve"
   },
   "dependencies": {
+    "dart-loader": "0.0.1",
     "isomorphic-fetch": "2.2.1",
-    "react": "16.13.1",
-    "react-dom": "16.13.1",
-    "storeon": "3.0.3"
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "7.2.6",
+    "redux": "4.1.1"
   },
   "devDependencies": {
     "@babel/core": "7.7.4",
@@ -82,5 +81,7 @@
     "webpack-bundle-analyzer": "4.4.2",
     "webpack-cli": "4.9.1",
     "webpack-dev-server": "3.11.2"
-  }
+  },
+  "author": "",
+  "license": "ISC"
 }

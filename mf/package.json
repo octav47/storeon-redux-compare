@@ -7,6 +7,7 @@
     "clean": "rm -rf dist",
     "setup": "npm i && npm run bootstrap && lerna link",
     "bootstrap": "lerna bootstrap --hoist",
+    "install-subpackages": "lerna run install",
     "dev": "lerna run dev --stream"
   },
   "author": "",
